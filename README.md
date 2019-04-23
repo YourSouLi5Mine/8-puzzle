@@ -1,13 +1,14 @@
 # 8-puzzle
 
-This script prints the path to goal and the cost of path on the console
+Este script imprime el camino al objetivo y el costo del camino mediante
+un algoritmo BFS
 
-### Usage
+### Uso
 ```
-python 8-puzzle.py 6,1,8,4,0,2,7,3,5
+python ocho_puzzle_bfs.py 6,1,8,4,0,2,7,3,5
 ```
 ### Results
 ```
-Path to goal: ['Down', 'Right', 'Up', 'Up', 'Left', 'Down', 'Right', 'Down', 'Left', 'Up', 'Left', 'Up', 'Right', 'Right', 'Down', 'Down', 'Left', 'Left', 'Up', 'Up']
-Cost of path: 20
+Camino al objetivo: ['Down', 'Right', 'Up', 'Up', 'Left', 'Down', 'Right', 'Down', 'Left', 'Up', 'Left', 'Up', 'Right', 'Right', 'Down', 'Down', 'Left', 'Left', 'Up', 'Up']
+Costo del camino: 20
 ```
